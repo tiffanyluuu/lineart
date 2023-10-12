@@ -22,7 +22,7 @@ public class LineArtLab extends JPanel{
 		int x8 = 10, y8 = 550;
 		
 			
-		for(int l = 0; l <= 3; l++) {
+		for(int l = 0; l <= 1; l++) {
 				
 			
 
@@ -49,52 +49,9 @@ public class LineArtLab extends JPanel{
  
 				
 					
-			} else if(l == 2) {
-				
-				 x1 = 4; 	
-				 y1 = 4;
-				 x2 = 4;
-				 y2 = 100;
-				
-				 x3 = 200; 
-				 y3 = 4;
-				 x4 = 200;
-				 y4 = 90;
-				
-				 x5 = 4; 
-				 y5 = 90;
-				 x6 = 200; 
-				 y6 = 100;
-				
-				 x7 = 4; 
-				 y7 = 4;
-				 x8 = 4;
-				 y8 = 100;
-				
-			} else if(l == 3) {
-				
-				 x1 = 2; 	
-				 y1 = 2;
-				 x2 = 2;
-				 y2 = 50;
-				
-				 x3 = 100; 
-				 y3 = 2;
-				 x4 = 100;
-				 y4 = 50;
-				
-				 x5 = 2; 
-				 y5 = 50;
-				 x6 = 100; 
-				 y6 = 50;
-				
-				 x7 = 2; 
-				 y7 = 2;
-				 x8 = 2;
-				 y8 = 50;
 			}
 			
-		
+			
 				//1) draw a concentric rectangle that's 10pixels from all sides of the "gray"
 				//portion of the GUI
 				
@@ -148,11 +105,11 @@ public class LineArtLab extends JPanel{
 					
 				}
 				
-		
+			}
 				
 		}
 				
-	}
+	
 				
 		
 				
