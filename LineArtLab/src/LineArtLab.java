@@ -8,61 +8,35 @@ public class LineArtLab extends JPanel{
 	// methods
 	public void paint(Graphics g) {
 		
+		
+		
+		//initializing the size, amount of lines
 		int n = 59;
 		int xC = 15;
 		int xY = 10;
 		
-		int x1 = 10, y1 = 600; //top left
+		//initializing coordinates
+		int x1 = 10, y1 = 600; 
 		int x2 = 10, y2 = 10;
-		/*
-		int x3 = 900, y3 = 10; //top right
-		int x4 = 900, y4 = 555;
-		
-		int x5 = 10, y5 = 550; //bottom right
-		int x6 = 900, y6 = 555;
-		
-		int x7 = 10, y7 = 10; //bottom left
-		int x8 = 10, y8 = 550;
-		*/
-			
+	
 		for(int l = 0; l <= 3; l++) {
 				
 			
-
+			//inner shape
 			if(l == 1) {
 				
-				 x1 = 250; 	
+				 x1 = 220; 	
 				 y1 = 460;
-				 x2 = 250;
+				 x2 = 220;
 				 y2 = 150;
 				
-				
+				n = 52;
+				xC = 9;
+				xY = 6;
  
 				
 					
-			} /*else if(l == 2) {
-				
-				 x1 = 4; 	
-				 y1 = 4;
-				 x2 = 4;
-				 y2 = 100;
-				
-				 x3 = 200; 
-				 y3 = 4;
-				 x4 = 200;
-				 y4 = 90;
-				
-				 x5 = 4; 
-				 y5 = 90;
-				 x6 = 200; 
-				 y6 = 100;
-				
-				 x7 = 4; 
-				 y7 = 4;
-				 x8 = 4;
-				 y8 = 100;
-				
-			} */
+			} 
 			
 				//1) draw a concentric rectangle that's 10pixels from all sides of the "gray"
 				//portion of the GUI
@@ -71,7 +45,6 @@ public class LineArtLab extends JPanel{
 				
 				
 				//starting and ending point variables
-				//top left
 			
 				
 				for (int num = 0; num < n; num++) {
